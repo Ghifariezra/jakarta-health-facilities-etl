@@ -1,0 +1,46 @@
+# Environment variables (Sangat Penting)
+.env
+.env.*
+!.env.example
+
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# Python Cache & Build Artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+
+# Data & Proxy (Mencegah data raw/processed dan proxy premium bocor)
+data/
+*.csv
+proxyscrape*.txt
+
+# Logs
+logs/
+*.log
+
+# Scripts
+scripts/
+
+# OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor & IDE (VS Code, dll)
+.vscode/
+.idea/
+*.swp
+*.suo
+*.user
+
+commit.txt

@@ -1,0 +1,9 @@
+aiohttp 
+pandas 
+lxml 
+html5lib 
+python-dotenv
+sqlalchemy 
+psycopg2-binary
+psycopg2
+asyncpg
